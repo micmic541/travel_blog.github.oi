@@ -16,37 +16,112 @@
 	<title>Travel Blog</title>
 </head>
 <body>
-	<header>
-		<div class="container-fluid my-3 col-xl-10 col-12">
+	<header class="fixed-top">
+		<div class="container-fluid bg-white py-3 col-xl-10 col-12">
 			<a href="index.html"><img class="navbar-brand img-fluid" src="img/logo.png"></a>
 		</div>
 		<div class="navigation">
 			<nav class="container-fluid py-2 col-xl-10 col-12">
 				<a class="navigation-item" href="#">NEW</a>
-				<a class="navigation-item px-4" href="#">COLUMN</a>
+				<a class="navigation-item px-5" href="#">COLUMN</a>
 				<a class="navigation-item" href="#">SERIES</a>
-				<a class="navigation-item px-4" href="#">Q&amp;A</a>
+				<a class="navigation-item px-5" href="#">Q&amp;A</a>
 				<a class="navigation-item" href="#">CONTACT</a>
 			</nav>
 		</div><!--/.navigation-->
 	</header>
 	<div class="full-wrap">
 	
-		<section class="">
-			<div class="flex-box">
+		<section class="pickup container-fluid　">
+			<div class="flex-box mx-auto mb-5 col-xl-10 col-12">
+				<div class="flex-item pb-3 col-xl-4">
+					<img class="img-fluid" src="img/pickup1.jpg" alt="#">
+					<p>タイトルテキストタイトルテキストタイトルテキストタイトルテキストタイトルテキストタイトルテキスト</p>
+					<div class="read_more text-center"><a href="#">READ MORE</a></div>
+				</div><!--/.flex-item-->
+				<div class="flex-item pb-3 col-xl-4">
+					<img class="img-fluid" src="img/pickup2.jpg" alt="#">
+					<p>タイトルテキストタイトルテキストタイトルテキストタイトルテキストタイトルテキストタイトルテキスト</p>
+					<div class="read_more text-center"><a href="#">READ MORE</a></div>
+				</div><!--/.flex-item-->
+				<div class="flex-item pb-3 col-xl-4">
+					<img class="img-fluid" src="img/pickup3.jpg" alt="#">
+					<p>タイトルテキストタイトルテキストタイトルテキストタイトルテキストタイトルテキストタイトルテキスト</p>
+					<div class="read_more text-center"><a href="#">READ MORE</a></div>
+				</div><!--/.flex-item-->
 			</div><!--/.flex-box-->
-		</section>
-		<section class="blog">
-			<div id="main">
-			</div><!--/#main-->
-			<div id="side">
-				<aside class="name">
-				</aside><!--/.name-->
-				<aside class="ranking">
-				</aside><!--/.ranking-->
-				<aside class="archive">
-				</aside><!--/.archive-->
-			</div><!--/#side-->
+		</section><!--/.pickup-->
+		
+		<section class="blog container-fluid col-xl-10 col-12">
+			<div class="flex-box">
+				<div id="main" class="col-xl-8 col-md-8 col-12">
+					<article>
+						<h4 class="font-weight-bold pb-2">タイトルテキストテキストテキストテキストテキスト</h4>
+						<div class="detail d-flex py-2">
+							<time datetime="2021-02-22">2021/2/22</time>
+							<p class="pl-3">カテゴリ1</p>
+						</div><!--/.detail-->
+						<img class="img-fluid" src="img/main1.jpg" alt="#">
+						<div class="content p-xl-4 p-4 p-sm-2">
+							<p>本文テキストタイトルテキストタイトルテキストタイトルテキストタイトルテキストタイトルテキスト
+							テキストタイトルテキストテキストタイトルテキストテキストタイトルテキスト</p>
+						</div><!--/.content-->
+						<div class="read_more text-center pt-2"><a href="#">READ MORE</a></div>
+					</article>
+					<article>
+						<h4 class="font-weight-bold pb-2">タイトルテキストテキストテキストテキストテキスト</h4>
+						<div class="detail d-flex py-2">
+							<time datetime="2021-02-22">2021/2/22</time>
+							<p class="pl-3">カテゴリ1</p>
+						</div><!--/.detail-->
+						<img class="img-fluid" src="img/main2.jpg" alt="#">
+						<div class="content p-xl-4 p-4 p-sm-2">
+							<p>本文テキストタイトルテキストタイトルテキストタイトルテキストタイトルテキストタイトルテキスト
+							テキストタイトルテキストテキストタイトルテキストテキストタイトルテキスト</p>
+						</div><!--/.content-->
+						<div class="read_more text-center pt-2"><a href="#">READ MORE</a></div>
+					</article>
+					<article>
+						<h4 class="font-weight-bold pb-2">タイトルテキストテキストテキストテキストテキスト</h4>
+						<div class="detail d-flex py-2">
+							<time datetime="2021-02-22">2021/2/22</time>
+							<p class="pl-3">カテゴリ1</p>
+						</div><!--/.detail-->
+						<img class="img-fluid" src="img/main3.jpg" alt="#">
+						<div class="content p-xl-4 p-4 p-sm-2">
+							<p>本文テキストタイトルテキストタイトルテキストタイトルテキストタイトルテキストタイトルテキスト
+							テキストタイトルテキストテキストタイトルテキストテキストタイトルテキスト</p>
+						</div><!--/.content-->
+						<div class="read_more text-center pt-2"><a href="#">READ MORE</a></div>
+					</article>
+				</div><!--/#main-->
+				<div id="side" class="col-xl-4 col-md-4 col-12">
+					<aside class="name text-center">
+						<img class="img-fluid" src="img/author.jpg" alt="#">
+						<h5 class="font-weight-bold py-4">Name Name</h5>	
+						<p class="profile px-3 text-justify">プロフィールテキストテキストテキストテキストテキストテキストテキスト
+						テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+						テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+					</aside><!--/.name-->
+					<aside class="ranking">
+						<h5 class="font-weight-bold py-4 text-center">Ranking</h5>
+						<a href="#">
+							<img class="img-fluid" src="img/ranking1.jpg" alt="#">
+							<p class="p-1">タイトルテキストテキストテキストテキストテキストテキスト</p>
+						</a>
+						<a class="py-4" href="#">
+							<img class="img-fluid" src="img/ranking2.jpg" alt="#">
+							<p class="p-1">タイトルテキストテキストテキストテキストテキストテキスト</p>
+						</a>
+						<a href="#">
+							<img class="img-fluid" src="img/ranking3.jpg" alt="#">
+							<p class="p-1">タイトルテキストテキストテキストテキストテキストテキスト</p>
+						</a>
+					</aside><!--/.ranking-->
+					<aside class="archive">
+					</aside><!--/.archive-->
+				</div><!--/#side-->
+			</div><!--/.flex-box-->
 		</section><!--/.blog-->
 	
 	</div><!--/.full-wrap-->
