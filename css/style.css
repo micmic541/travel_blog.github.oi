@@ -51,7 +51,7 @@ a:hover { text-decoration: none; }
 
 /*pickup*/
 
-.pickup .flex-box, .blog .flex-box { display: flex; flex-direction: row; }
+.pickup .flex-box, .blog .flex-box, footer .flex-box { display: flex; flex-direction: row; }
 
 /*blog*/
 
@@ -59,11 +59,37 @@ a:hover { text-decoration: none; }
 
 .detail time, .detail p { font-size: 0.875rem; }
 
-.blog article { padding-bottom: 6rem; }
+.blog article, .archive { padding-bottom: 6rem; }
 
 .name img { width: 130px; border-radius: 50%; }
 
-.ranking p { color: #000; }
+.ranking p, .archive a, footer .flex-box a { color: #000; }
+
+/*archive*/
+
+.archive_date, footer .menu_link { padding: 0.85rem 1rem; border-bottom: 1px #777 solid; }
+#date1, #menu1 { border-top: 1px #777 solid; }
+
+/*footer*/
+footer { background-color: #F7F7F7; }
+footer .flex-box { justify-content: space-around; }
+
+.about_table { position: relative; }
+
+.about_link { padding-left: 1rem; padding-bottom: .35rem; }
+
+.about_link::before {
+  content: ""; 
+  position: absolute; 
+  width: 0px;
+  left: 2%; 
+  border-color: #333;
+  border-style: solid;
+  border-width: 6px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
 
 
 /**横スクロールは、親要素を100％にして、子要素をそれ以上の大きさに
@@ -83,7 +109,7 @@ a:hover { text-decoration: none; }
 	.navigation { overflow-x: scroll; } /**横スクロールのため**/
 	
 	/*pickup*/
-	.pickup .flex-box, .blog .flex-box { flex-direction: column; }
+	.pickup .flex-box, .blog .flex-box, footer .flex-box { flex-direction: column; }
 }
 
 /*Surface Duo-------------------------------------------*/
