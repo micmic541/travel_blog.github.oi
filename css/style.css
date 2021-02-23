@@ -59,7 +59,7 @@ a:hover { text-decoration: none; }
 
 .detail time, .detail p { font-size: 0.875rem; }
 
-.blog article, .archive { padding-bottom: 6rem; }
+.blog article, .archive , footer .flex-box { padding-bottom: 6rem; }
 
 .name img { width: 130px; border-radius: 50%; }
 
@@ -91,6 +91,7 @@ footer .flex-box { justify-content: space-around; }
   border-bottom-color: transparent;
 }
 
+/**footerの三角の位置が違う**/
 
 /**横スクロールは、親要素を100％にして、子要素をそれ以上の大きさに
 ディスプレイでは、Overflow：hiddenに、media queryでは　overhlow: scrollを
