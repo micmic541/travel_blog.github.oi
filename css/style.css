@@ -99,9 +99,6 @@ footer .flex-box { justify-content: space-around; }
 /**offsetはコラムをsecretに一つ増やす役割**/
 
 /*etc----------------------*/
-@media (max-width: 1050px) {
-	
-}
 
 @media (max-width: 767px) {
 	/*global*/
